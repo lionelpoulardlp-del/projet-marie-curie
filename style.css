@@ -4,3 +4,100 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+
+
+body {
+  background: #c9b2b2;
+  color: #333;
+}
+
+
+nav {
+  background: #222;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: rgb(236, 224, 224);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.intro {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+
+.intro img {
+  width: 200px;
+  border-radius: 50px;
+}
+#specificites {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+.card {
+
+    width: 200px;
+  background: rgb(26, 26, 29);
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+
+.timeline {
+  padding: 40px;
+}
+
+.timeline ul {
+  list-style: none;
+}
+
+.timeline li {
+  margin: 40px 0;
+}
+
+.temoignage {
+    text-align: center;
+    font-size: 40px;
+
+
+}
+.quote {
+  background: #9a8989;
+  padding: 40px;
+  text-align: center;
+  
+}
+
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+a {color: rgb(20, 121, 209);
+
+}
